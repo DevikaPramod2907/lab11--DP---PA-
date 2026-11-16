@@ -4,11 +4,7 @@ calculator.py
 
 One function per operation, in order.
 """
-import math
-# First example
 
-def add(a, b):
-    return a + b
 
 import math
 def square_root(a):
@@ -19,32 +15,37 @@ def square_root(a):
 
 
 def hypotenuse(a, b):
-    try:
-        return math.hypot(a, b)
-    except ValueError:
-        raise ValueError("Invalid values for hypotenuse")
+    return math.hypot(a, b)
+
 
 def add(a, b):
-    return a+b
+    return a + b
+
+
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+
+def mul(a, b):
     return a * b
 
+
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError
+    return b / a
+
+
 def logarithm(a, b):
-    result = math.log(b, a)
-    if result == 0 or result < 0:
-        raise ValueError
-    else:
-        return result
-
-def exponent(a, b):
-    return a**b
+    try:
+        return math.log(b, a)
+    except ValueError:
+        raise ValueError("Invalid logarithm arguments")
 
 
-def sub(a, b):
-    return a - b
+def exp(a, b):
+    return a ** b
+
 
 def mul(a, b):
     return a * b
