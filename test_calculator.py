@@ -1,9 +1,9 @@
-import unittest
-from calculator import *
-
 #https://github.com/DevikaPramod2907/lab11--DP---PA-.git
 # Partner 1: Devika Pramod
 # Partner 2: Pavitra Anand
+
+import unittest
+from calculator import *
 
 
 class TestCalculator(unittest.TestCase):
