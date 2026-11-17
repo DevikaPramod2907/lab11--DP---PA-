@@ -1,7 +1,10 @@
 import unittest
 from calculator import *
 
-#https://github.com/DevikaPramod2907/lab11--DP---PA-.git
+# Partner 1: Devika Pramod
+# Partner 2: Pavitra Anand
+# #https://github.com/DevikaPramod2907/lab11--DP---PA-.git
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
