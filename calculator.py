@@ -5,7 +5,7 @@ calculator.py
 One function per operation, in order.
 """
 
-# #https://github.com/DevikaPramod2907/lab11--DP---PA-.git
+# https://github.com/DevikaPramod2907/lab11--DP---PA-.git
 # Partner 1: Devika Pramod
 # Partner 2: Pavitra Anand
 import math
